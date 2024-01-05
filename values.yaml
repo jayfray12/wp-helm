@@ -172,7 +172,7 @@ existingApacheConfigurationConfigMap: ""
 ##   enable-multisite.sh: |
 ##     #!/bin/bash
 ##     chmod +w /bitnami/wordpress/wp-config.php
-##     wp core multisite-install --url=example.com --title="Welcome to the WordPress Multisite" --admin_user="doesntmatternotreallyused" --admin_password="doesntmatternotreallyused" --admin_email="user@example.com"
+##     wp core multisite-install --url=example.com --title="Welcome to the WordPress Multisite" --admin_user="doesntmatternotreallyused" --admin_password="doesntmatternotreallyused" --admin_email="user@example.com" # notsecret
 ##     cat /docker-entrypoint-init.d/.htaccess > /bitnami/wordpress/.htaccess
 ##     chmod -w bitnami/wordpress/wp-config.php
 ##   .htaccess: |
